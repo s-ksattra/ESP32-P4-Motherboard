@@ -1,0 +1,3 @@
+[submodule "Libraries/Kicad-Custom-Library"]
+	path = Libraries/Kicad-Custom-Library
+	url = https://github.com/s-ksattra/Kicad-Custom-Library.git
