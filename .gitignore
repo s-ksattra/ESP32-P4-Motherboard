@@ -1,0 +1,40 @@
+# KiCad autosave and backups
+*-bak
+*.bak
+*.tmp
+*.lck
+*.kicad_prl
+*.kicad_pro-bak
+
+# Netlists
+*.net
+
+# Position files
+*.pos
+
+# Drill reports
+*.drl
+*.rpt
+
+# Fabrication outputs
+Gerbers/
+Manufacturing/
+Production/
+Output/
+
+# 3D cache
+*.step-cache
+
+# Temporary files
+*.zip
+Thumbs.db
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Python cache
+__pycache__/
+
+# Logs
+*.log
