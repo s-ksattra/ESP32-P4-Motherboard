@@ -18115,7 +18115,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 228.6 236.22 0)
 			(effects
 				(font
@@ -18732,7 +18732,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 174.498 209.55 90)
 			(effects
 				(font
@@ -18799,7 +18799,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 58.42 222.758 90)
 			(effects
 				(font
@@ -19406,7 +19406,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 184.15 201.422 90)
 			(effects
 				(font
@@ -19473,7 +19473,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 340.36 163.322 90)
 			(effects
 				(font
@@ -19745,7 +19745,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 62.23 160.528 90)
 			(effects
 				(font
@@ -19949,7 +19949,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 121.92 218.44 0)
 			(effects
 				(font
@@ -20061,7 +20061,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 81.28 90.678 90)
 			(effects
 				(font
@@ -20335,7 +20335,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 57.15 81.788 90)
 			(effects
 				(font
@@ -20469,7 +20469,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 295.402 27.94 90)
 			(effects
 				(font
@@ -20605,7 +20605,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 137.16 212.598 90)
 			(effects
 				(font
@@ -20739,7 +20739,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 228.6 231.14 0)
 			(effects
 				(font
@@ -20815,7 +20815,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 174.498 220.98 90)
 			(effects
 				(font
@@ -20951,7 +20951,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 281.432 27.94 90)
 			(effects
 				(font
@@ -21018,7 +21018,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 81.28 95.758 90)
 			(effects
 				(font
@@ -21224,7 +21224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 332.232 140.97 90)
 			(effects
 				(font
@@ -21291,7 +21291,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 219.71 234.442 90)
 			(effects
 				(font
@@ -21359,7 +21359,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm"
 			(at 351.79 165.1 0)
 			(effects
 				(font
@@ -21426,7 +21426,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 320.04 131.572 90)
 			(effects
 				(font
@@ -21493,7 +21493,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 219.71 229.362 90)
 			(effects
 				(font
@@ -21831,7 +21831,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 281.94 166.37 0)
 			(effects
 				(font
@@ -22040,7 +22040,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 41.91 231.14 0)
 			(effects
 				(font
@@ -22559,7 +22559,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 268.732 27.94 90)
 			(effects
 				(font
@@ -22966,7 +22966,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 344.932 33.02 90)
 			(effects
 				(font
@@ -23901,7 +23901,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 41.91 90.17 0)
 			(effects
 				(font
@@ -24286,7 +24286,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 339.09 116.332 90)
 			(effects
 				(font
@@ -24421,7 +24421,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_A_Molex_67643_Horizontal"
 			(at 35.56 157.48 0)
 			(effects
 				(font
@@ -24896,7 +24896,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 58.42 225.298 90)
 			(effects
 				(font
@@ -25506,7 +25506,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 303.53 166.37 0)
 			(effects
 				(font
@@ -25779,7 +25779,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 62.23 157.988 90)
 			(effects
 				(font
@@ -25913,7 +25913,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 57.15 84.328 90)
 			(effects
 				(font
@@ -26047,7 +26047,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 328.422 33.02 90)
 			(effects
 				(font
@@ -26114,7 +26114,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 137.16 210.058 90)
 			(effects
 				(font

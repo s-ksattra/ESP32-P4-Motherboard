@@ -4202,7 +4202,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 54.61 52.07 0)
 			(effects
 				(font
@@ -4290,7 +4290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 258.572 49.53 90)
 			(effects
 				(font
@@ -4497,7 +4497,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 260.35 58.42 0)
 			(effects
 				(font
@@ -4576,7 +4576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 129.032 49.53 90)
 			(effects
 				(font
@@ -4985,7 +4985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 209.042 49.53 90)
 			(effects
 				(font
@@ -5125,7 +5125,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 210.82 58.42 0)
 			(effects
 				(font
@@ -5760,7 +5760,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 130.81 58.42 0)
 			(effects
 				(font
