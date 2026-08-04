@@ -7681,7 +7681,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 92.71) (xy 78.74 92.71)
+			(xy 64.77 92.71) (xy 76.2 92.71)
 		)
 		(stroke
 			(width 0)
@@ -8801,6 +8801,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 87.63) (xy 86.36 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a3af141-c301-4ccc-8243-a17de29cb071")
+	)
+	(wire
+		(pts
 			(xy 148.59 237.49) (xy 153.67 237.49)
 		)
 		(stroke
@@ -9461,7 +9471,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 87.63) (xy 69.85 87.63)
+			(xy 76.2 87.63) (xy 69.85 87.63)
 		)
 		(stroke
 			(width 0)
@@ -9988,6 +9998,16 @@
 			(type default)
 		)
 		(uuid "da3e9e62-eec8-45c2-a307-8a822b19a961")
+	)
+	(wire
+		(pts
+			(xy 83.82 92.71) (xy 86.36 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc6ca9d9-2e07-4eb1-b9df-64e152763bdd")
 	)
 	(wire
 		(pts
@@ -18129,7 +18149,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03047cf3-9cc7-4dfc-af9e-a80d34b9ae03")
-		(property "Reference" "D17"
+		(property "Reference" "D14"
 			(at 230.886 239.522 0)
 			(effects
 				(font
@@ -18190,7 +18210,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "D17")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -18205,7 +18225,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04110da2-587a-4c72-bb4f-feb74f3f06b8")
-		(property "Reference" "D9"
+		(property "Reference" "D8"
 			(at 73.406 99.568 90)
 			(effects
 				(font
@@ -18259,7 +18279,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "D9")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -18276,7 +18296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06a83652-0456-48ff-bf40-44aa25e224b7")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR016"
 			(at 153.67 203.2 0)
 			(effects
 				(font
@@ -18326,7 +18346,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR031")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -18343,7 +18363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06b5dfcb-a8fc-4d4b-b7b4-746902b61c9b")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR039"
 			(at 311.15 173.99 0)
 			(effects
 				(font
@@ -18393,7 +18413,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR052")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -18479,7 +18499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1764679d-88ba-4f91-aa0f-b445dbd48ff6")
-		(property "Reference" "#FLG07"
+		(property "Reference" "#FLG02"
 			(at 330.2 141.605 0)
 			(effects
 				(font
@@ -18529,7 +18549,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#FLG07")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -18546,7 +18566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a7bf010-91bf-479f-9aba-51e8a8f74d22")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR027"
 			(at 232.41 185.42 0)
 			(effects
 				(font
@@ -18597,7 +18617,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR062")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -18614,7 +18634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b0fea30-34dd-46f5-9417-db40942baac5")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR04"
 			(at 44.45 180.34 0)
 			(effects
 				(font
@@ -18664,7 +18684,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR012")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -18680,7 +18700,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c451372-a701-4d44-810f-5c3fcd2ff7a1")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR015"
 			(at 151.13 208.28 0)
 			(effects
 				(font
@@ -18731,7 +18751,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR025")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -18746,7 +18766,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e8c3a95-d726-4e1b-a5e4-89f86635c9c6")
-		(property "Reference" "R21"
+		(property "Reference" "R11"
 			(at 173.99 208.28 90)
 			(effects
 				(font
@@ -18798,7 +18818,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "R21")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -18813,7 +18833,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f9b79a9-1e45-439f-8ceb-0d4e1a83d5c2")
-		(property "Reference" "R12"
+		(property "Reference" "R3"
 			(at 59.69 219.71 90)
 			(effects
 				(font
@@ -18865,7 +18885,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "R12")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -18882,7 +18902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f9da940-866c-4e08-afcb-193101646fb1")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR023"
 			(at 176.53 189.23 0)
 			(effects
 				(font
@@ -18933,7 +18953,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR055")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -18950,7 +18970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20eba34e-7a30-415a-8f96-3d0cbfefdf59")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR02"
 			(at 31.75 173.99 0)
 			(effects
 				(font
@@ -19000,7 +19020,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR045")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -19017,7 +19037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22717833-5ed7-4c31-ace7-9e7a9566f3d3")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR018"
 			(at 173.99 231.14 0)
 			(effects
 				(font
@@ -19067,7 +19087,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR029")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -19082,7 +19102,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b8a8bd2-faf3-4792-8601-d9e7ca0a565b")
-		(property "Reference" "C31"
+		(property "Reference" "C9"
 			(at 223.266 187.198 0)
 			(effects
 				(font
@@ -19136,7 +19156,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "C31")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -19152,7 +19172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b9cd79e-c6ac-417d-91db-8b08d047d5c1")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR037"
 			(at 289.56 107.95 0)
 			(effects
 				(font
@@ -19202,7 +19222,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR056")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -19219,7 +19239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c7b3127-ecf5-41f2-8748-9c11edddfad5")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR01"
 			(at 31.75 120.65 0)
 			(effects
 				(font
@@ -19269,7 +19289,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR013")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -19286,7 +19306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3206505a-1723-4e36-8a7d-46cf1b702715")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR031"
 			(at 271.78 27.94 0)
 			(effects
 				(font
@@ -19336,7 +19356,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR021")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -19351,7 +19371,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "322a8cbb-a460-4b82-b059-cd5f9e04a4b5")
-		(property "Reference" "C23"
+		(property "Reference" "C15"
 			(at 350.266 125.73 0)
 			(effects
 				(font
@@ -19405,7 +19425,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "C23")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -19420,7 +19440,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32bdef44-09c9-4bd3-82c9-be5947ec9abe")
-		(property "Reference" "R20"
+		(property "Reference" "R13"
 			(at 185.42 201.93 90)
 			(effects
 				(font
@@ -19472,7 +19492,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "R20")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -19487,7 +19507,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "334d2794-149e-4a09-afac-382384420dfe")
-		(property "Reference" "R25"
+		(property "Reference" "R22"
 			(at 341.63 163.83 90)
 			(effects
 				(font
@@ -19539,7 +19559,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "R25")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -19554,7 +19574,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "336590aa-56c6-4a31-be8b-19ca34654079")
-		(property "Reference" "C9"
+		(property "Reference" "C3"
 			(at 181.102 40.386 0)
 			(effects
 				(font
@@ -19608,7 +19628,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "C9")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -19625,7 +19645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "377dfa38-2e82-4a5b-bfa4-0d48404d5b82")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR032"
 			(at 273.05 139.7 0)
 			(effects
 				(font
@@ -19675,7 +19695,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR050")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -19690,7 +19710,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4429a6b5-41b5-434f-a2a2-4f65f2e0990f")
-		(property "Reference" "D14"
+		(property "Reference" "D7"
 			(at 68.326 240.538 90)
 			(effects
 				(font
@@ -19744,7 +19764,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "D14")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -19759,7 +19779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "47564501-3b99-4766-95a2-c39cda329e2c")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 63.5 157.48 90)
 			(effects
 				(font
@@ -19811,7 +19831,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -19828,7 +19848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cf82195-555f-4cb2-bc3e-7fbe29101b32")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR06"
 			(at 64.77 257.81 0)
 			(effects
 				(font
@@ -19878,7 +19898,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR019")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -19893,7 +19913,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ff9cbf3-8d2f-42d5-b98b-ef0ec73b3d70")
-		(property "Reference" "D20"
+		(property "Reference" "D12"
 			(at 152.146 227.838 90)
 			(effects
 				(font
@@ -19947,7 +19967,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "D20")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -19963,7 +19983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "509a2215-ef83-4841-86d5-f46d0940a3b8")
-		(property "Reference" "J6"
+		(property "Reference" "J4"
 			(at 119.38 194.31 0)
 			(effects
 				(font
@@ -20060,7 +20080,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "J6")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -20068,15 +20088,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 82.55 87.63 90)
+		(at 80.01 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "52642415-c5b4-4452-9f2d-ea900772c9af")
-		(property "Reference" "R6"
-			(at 82.55 87.63 90)
+		(property "Reference" "R7"
+			(at 80.01 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20084,7 +20104,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 82.55 85.344 90)
+			(at 80.01 85.344 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20092,7 +20112,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 82.55 89.408 90)
+			(at 80.01 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20101,7 +20121,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 87.63 0)
+			(at 80.01 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20110,7 +20130,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 82.55 87.63 0)
+			(at 80.01 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20127,7 +20147,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -20142,7 +20162,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53a6ccb6-7633-4379-8c8e-dd3847e0d5f7")
-		(property "Reference" "D19"
+		(property "Reference" "D11"
 			(at 147.066 227.838 90)
 			(effects
 				(font
@@ -20196,7 +20216,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "D19")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -20211,7 +20231,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "568d3edc-eb39-48e6-9ab1-c3fd1bfab241")
-		(property "Reference" "C30"
+		(property "Reference" "C8"
 			(at 223.52 180.594 0)
 			(effects
 				(font
@@ -20265,7 +20285,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "C30")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -20280,7 +20300,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "571fed34-51df-4cb3-b182-df6ecccf22b6")
-		(property "Reference" "D13"
+		(property "Reference" "D5"
 			(at 63.246 240.538 90)
 			(effects
 				(font
@@ -20334,7 +20354,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "D13")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -20349,7 +20369,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57b69727-3c67-4b0b-bf75-2d3aa73e2090")
-		(property "Reference" "R8"
+		(property "Reference" "R1"
 			(at 59.69 78.74 90)
 			(effects
 				(font
@@ -20401,7 +20421,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "R8")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -20418,7 +20438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "588b6909-9311-4360-a8b2-df34741d2c26")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR044"
 			(at 335.28 156.21 0)
 			(effects
 				(font
@@ -20468,7 +20488,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR051")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -20483,7 +20503,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58ccd726-9603-485a-a889-77e6b9872c62")
-		(property "Reference" "R11"
+		(property "Reference" "R18"
 			(at 285.75 27.94 90)
 			(effects
 				(font
@@ -20535,7 +20555,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "R11")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -20550,7 +20570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59e879cb-3b97-41dd-bdf9-821edfae1885")
-		(property "Reference" "C22"
+		(property "Reference" "C14"
 			(at 337.566 130.81 0)
 			(effects
 				(font
@@ -20604,7 +20624,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "C22")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -20619,7 +20639,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a15e3dc-759b-476b-b23b-ca1f2bba37de")
-		(property "Reference" "R18"
+		(property "Reference" "R10"
 			(at 138.43 209.55 90)
 			(effects
 				(font
@@ -20671,7 +20691,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "R18")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -20688,7 +20708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5aa71a25-195c-4326-9388-a303d169b525")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR013"
 			(at 111.76 248.92 0)
 			(effects
 				(font
@@ -20738,7 +20758,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR032")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -20753,7 +20773,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ec10df4-3608-4cac-8006-0805f5ed759c")
-		(property "Reference" "D16"
+		(property "Reference" "D13"
 			(at 230.632 225.806 0)
 			(effects
 				(font
@@ -20814,7 +20834,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "D16")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -20829,7 +20849,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "61ed1ea2-9337-43c9-899d-f4cd6064e3e5")
-		(property "Reference" "R19"
+		(property "Reference" "R12"
 			(at 173.99 219.71 90)
 			(effects
 				(font
@@ -20881,7 +20901,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "R19")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -20896,7 +20916,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63da054a-b0ce-4e38-bc9b-c3cd637516f4")
-		(property "Reference" "D10"
+		(property "Reference" "D1"
 			(at 42.926 163.068 90)
 			(effects
 				(font
@@ -20950,7 +20970,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "D10")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -20965,7 +20985,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65046017-c0ba-432f-9354-5ccb37dd52d9")
-		(property "Reference" "R10"
+		(property "Reference" "R17"
 			(at 271.78 27.94 90)
 			(effects
 				(font
@@ -21017,7 +21037,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "R10")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -21025,15 +21045,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 82.55 92.71 90)
+		(at 80.01 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "65ef5c6a-2f14-46e9-9a32-4b04204b6b0d")
-		(property "Reference" "R7"
-			(at 82.55 92.71 90)
+		(property "Reference" "R8"
+			(at 80.01 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21041,7 +21061,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 82.55 94.996 90)
+			(at 80.01 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21049,7 +21069,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 82.55 94.488 90)
+			(at 80.01 94.488 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21058,7 +21078,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 92.71 0)
+			(at 80.01 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21067,7 +21087,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 82.55 92.71 0)
+			(at 80.01 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21084,7 +21104,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -21099,7 +21119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "667c5a83-9006-44a4-9ae9-2f65a898f245")
-		(property "Reference" "C20"
+		(property "Reference" "C13"
 			(at 282.448 108.204 0)
 			(effects
 				(font
@@ -21153,7 +21173,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "C20")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -21169,7 +21189,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "698521c9-cf48-47d7-882c-520760dc33bd")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR07"
 			(at 73.66 80.01 0)
 			(effects
 				(font
@@ -21220,7 +21240,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR047")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -21305,7 +21325,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c9e7671-7cae-4a6d-81e3-8b0f869dcaf6")
-		(property "Reference" "R31"
+		(property "Reference" "R15"
 			(at 220.98 234.95 90)
 			(effects
 				(font
@@ -21357,7 +21377,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "R31")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -21440,7 +21460,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6df06064-387d-48d1-bd9f-540f3bc7f8e9")
-		(property "Reference" "R24"
+		(property "Reference" "R20"
 			(at 321.31 132.08 90)
 			(effects
 				(font
@@ -21492,7 +21512,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "R24")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -21507,7 +21527,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70046b86-2325-4837-8541-37755d1d4445")
-		(property "Reference" "R23"
+		(property "Reference" "R14"
 			(at 220.98 229.87 90)
 			(effects
 				(font
@@ -21559,7 +21579,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "R23")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -21574,7 +21594,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7126027e-5ec3-4980-8213-24e153e1b995")
-		(property "Reference" "D12"
+		(property "Reference" "D3"
 			(at 53.086 163.068 90)
 			(effects
 				(font
@@ -21628,7 +21648,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "D12")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -21644,7 +21664,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73e22e00-3a15-4f1c-936f-35afa1652d2d")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR08"
 			(at 74.93 220.98 0)
 			(effects
 				(font
@@ -21695,7 +21715,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR020")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -21712,7 +21732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7875a241-9eb4-4b2c-a6ba-a28b4fb12e33")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR028"
 			(at 236.22 241.3 0)
 			(effects
 				(font
@@ -21762,7 +21782,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR064")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -21779,7 +21799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a9cc426-53f2-44b4-9b0b-2653936ed033")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR03"
 			(at 31.75 261.62 0)
 			(effects
 				(font
@@ -21829,7 +21849,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR054")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -21845,7 +21865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b60bf2a-f095-4734-92f1-485a376f8352")
-		(property "Reference" "J8"
+		(property "Reference" "J5"
 			(at 283.845 157.48 0)
 			(effects
 				(font
@@ -21900,7 +21920,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "J8")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -21915,7 +21935,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b77e3f8-1434-4383-a272-8990566f4379")
-		(property "Reference" "D11"
+		(property "Reference" "D2"
 			(at 48.006 163.068 90)
 			(effects
 				(font
@@ -21969,7 +21989,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "D11")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -22054,7 +22074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f25425a-b977-48c0-956c-a636e5d48921")
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at 39.37 207.01 0)
 			(effects
 				(font
@@ -22151,7 +22171,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "J5")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -22166,7 +22186,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80377631-d5cb-4d2b-b3c8-99e5a0d159cc")
-		(property "Reference" "C19"
+		(property "Reference" "C11"
 			(at 275.336 128.27 0)
 			(effects
 				(font
@@ -22220,7 +22240,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "C19")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -22237,7 +22257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "817c7d31-e334-4340-a475-80c20edbc710")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR020"
 			(at 179.07 33.02 0)
 			(effects
 				(font
@@ -22287,7 +22307,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR065")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -22304,7 +22324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81ce787f-2a30-40ae-a84f-bffbf95df134")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR019"
 			(at 177.8 153.67 0)
 			(effects
 				(font
@@ -22354,7 +22374,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR08")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -22370,7 +22390,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82d6c512-df79-4172-a85b-63576345893d")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR034"
 			(at 280.67 120.65 0)
 			(effects
 				(font
@@ -22420,7 +22440,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR057")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -22435,7 +22455,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8446bbd9-b9ca-4dc3-bbee-85c27208cb8d")
-		(property "Reference" "U12"
+		(property "Reference" "U2"
 			(at 209.042 248.666 0)
 			(effects
 				(font
@@ -22558,7 +22578,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "U12")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -22573,7 +22593,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87ceba4b-7374-41bc-ba83-10d7160a2f52")
-		(property "Reference" "R29"
+		(property "Reference" "R16"
 			(at 259.08 27.94 90)
 			(effects
 				(font
@@ -22625,7 +22645,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "R29")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -22641,7 +22661,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b7da376-6a1f-4048-8d0a-ce8c63ac6f9b")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR042"
 			(at 330.2 138.43 0)
 			(effects
 				(font
@@ -22691,7 +22711,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR058")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -22706,7 +22726,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8de94b76-855e-4b8a-a76b-d6354529d8f7")
-		(property "Reference" "C24"
+		(property "Reference" "C16"
 			(at 356.616 125.73 0)
 			(effects
 				(font
@@ -22760,7 +22780,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "C24")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -22777,7 +22797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "909f3dc2-3a6d-4fc2-8998-da274348ee19")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 88.9 161.29 0)
 			(effects
 				(font
@@ -22827,7 +22847,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -22842,7 +22862,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9308419b-0a4e-4476-b4e5-c51b602af100")
-		(property "Reference" "C10"
+		(property "Reference" "C7"
 			(at 195.326 40.64 0)
 			(effects
 				(font
@@ -22896,7 +22916,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "C10")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -22911,7 +22931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "951762fb-b538-4b49-88dc-d27a60aa8234")
-		(property "Reference" "C25"
+		(property "Reference" "C17"
 			(at 362.966 125.73 0)
 			(effects
 				(font
@@ -22965,7 +22985,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "C25")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -22980,7 +23000,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "970e3e93-0f33-454b-ab27-9827f912c353")
-		(property "Reference" "R15"
+		(property "Reference" "R21"
 			(at 335.28 33.02 90)
 			(effects
 				(font
@@ -23032,7 +23052,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "R15")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -23049,7 +23069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97eda82d-261c-4014-b8b1-831c86e21f26")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR017"
 			(at 173.99 207.01 0)
 			(effects
 				(font
@@ -23099,7 +23119,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR033")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -23116,7 +23136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "993feca0-95a2-4b07-b0a5-1cb15e830ad0")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR038"
 			(at 289.56 173.99 0)
 			(effects
 				(font
@@ -23166,7 +23186,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR053")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -23183,7 +23203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f23a898-d17d-424f-8296-d9769ca00d77")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR05"
 			(at 64.77 116.84 0)
 			(effects
 				(font
@@ -23233,7 +23253,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR046")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -23250,7 +23270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ff3b50d-e0ef-4c71-9d5f-3e6354e1f0e5")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR030"
 			(at 266.7 121.92 0)
 			(effects
 				(font
@@ -23300,7 +23320,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR035")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -23315,7 +23335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a19e3fa9-69ec-4c1f-9d07-1c49ea0c55f7")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR033"
 			(at 276.86 55.88 0)
 			(effects
 				(font
@@ -23365,7 +23385,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR022")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -23382,7 +23402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1a256eb-4ea1-4a4e-b458-09084435e910")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR026"
 			(at 205.74 190.5 0)
 			(effects
 				(font
@@ -23432,7 +23452,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR060")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -23448,7 +23468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a471efdd-6fca-410e-b483-03e76d896955")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 39.37 66.04 0)
 			(effects
 				(font
@@ -23545,7 +23565,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -23562,7 +23582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5ecce59-a7fa-4a42-a727-20556c1f3de9")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR025"
 			(at 203.2 261.62 0)
 			(effects
 				(font
@@ -23612,7 +23632,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR063")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -23627,7 +23647,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a83bc683-5a88-46c2-8538-c8ad02b56684")
-		(property "Reference" "D7"
+		(property "Reference" "D4"
 			(at 63.246 99.568 90)
 			(effects
 				(font
@@ -23681,7 +23701,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "D7")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -23696,7 +23716,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aad4f561-fb43-442d-b9e4-717f5675bed0")
-		(property "Reference" "D15"
+		(property "Reference" "D9"
 			(at 73.406 240.538 90)
 			(effects
 				(font
@@ -23750,7 +23770,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "D15")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -23767,7 +23787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aad86362-c570-4fec-9c8c-7b5a5fee6a27")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR036"
 			(at 285.75 146.05 0)
 			(effects
 				(font
@@ -23817,7 +23837,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR037")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -23902,7 +23922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac8dabce-e76d-405f-b64d-8e37b835fc64")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR041"
 			(at 321.31 147.32 0)
 			(effects
 				(font
@@ -23952,7 +23972,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR039")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -23968,7 +23988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "add96fa6-1bf1-4381-abf6-34d40e440764")
-		(property "Reference" "U5"
+		(property "Reference" "U1"
 			(at 144.78 22.86 0)
 			(effects
 				(font
@@ -24419,7 +24439,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "U5")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -24435,7 +24455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb388c44-2284-426b-90f5-f60bcf1cb340")
-		(property "Reference" "J4"
+		(property "Reference" "J1"
 			(at 33.02 142.24 0)
 			(effects
 				(font
@@ -24496,7 +24516,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "J4")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -24511,7 +24531,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf04e75d-760c-46f7-9632-92fe059ba1fe")
-		(property "Reference" "C26"
+		(property "Reference" "C12"
 			(at 274.574 107.95 0)
 			(effects
 				(font
@@ -24565,7 +24585,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "C26")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -24580,7 +24600,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0df3049-5644-40f3-adbd-3b192ac167da")
-		(property "Reference" "C6"
+		(property "Reference" "C1"
 			(at 76.454 147.574 0)
 			(effects
 				(font
@@ -24634,7 +24654,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "C6")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -24651,7 +24671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1d4a1e9-31c6-4b1f-8fa8-a6cd86e53580")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR043"
 			(at 335.28 33.02 0)
 			(effects
 				(font
@@ -24701,7 +24721,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR024")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -24718,7 +24738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c742d037-1486-4103-86bb-19e57f784098")
-		(property "Reference" "U6"
+		(property "Reference" "U3"
 			(at 303.53 106.68 0)
 			(effects
 				(font
@@ -24826,7 +24846,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "U6")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -24841,7 +24861,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c792e4aa-1241-4539-afae-61856278316c")
-		(property "Reference" "C8"
+		(property "Reference" "C4"
 			(at 187.706 40.64 0)
 			(effects
 				(font
@@ -24895,7 +24915,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "C8")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -24910,7 +24930,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c908126d-601f-4436-9446-251675ca1a21")
-		(property "Reference" "R14"
+		(property "Reference" "R4"
 			(at 59.69 222.25 90)
 			(effects
 				(font
@@ -24962,7 +24982,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "R14")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -24979,7 +24999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca5742d5-f9c5-4e72-8249-6ccbf4156104")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR022"
 			(at 179.07 205.74 0)
 			(effects
 				(font
@@ -25029,7 +25049,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR061")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -25046,7 +25066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbb1091d-6dd8-413f-aca8-f703f103241d")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR029"
 			(at 259.08 27.94 0)
 			(effects
 				(font
@@ -25096,7 +25116,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR066")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -25111,7 +25131,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc5953ea-23d6-418b-ad97-6fc760db1702")
-		(property "Reference" "D8"
+		(property "Reference" "D6"
 			(at 68.326 99.568 90)
 			(effects
 				(font
@@ -25165,7 +25185,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "D8")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -25182,7 +25202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cecdc2a2-ff7b-4ec4-ad3d-38ca14b2daf1")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR021"
 			(at 179.07 52.07 0)
 			(effects
 				(font
@@ -25232,7 +25252,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR09")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -25249,7 +25269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5a94666-5b2d-40ba-a206-e813f10a46a4")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR035"
 			(at 285.75 27.94 0)
 			(effects
 				(font
@@ -25299,7 +25319,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR023")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -25314,7 +25334,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d8dd0d34-afc1-47fb-a01d-4f1de77ed63e")
-		(property "Reference" "C21"
+		(property "Reference" "C10"
 			(at 268.732 128.016 0)
 			(effects
 				(font
@@ -25368,7 +25388,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "C21")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -25385,7 +25405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db2666ab-efb7-4b86-a053-1325bda4c7d6")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 74.93 74.93 0)
 			(effects
 				(font
@@ -25435,7 +25455,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -25450,7 +25470,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dce81b80-e82e-4cac-81ea-bfc6589f9dbb")
-		(property "Reference" "D18"
+		(property "Reference" "D10"
 			(at 141.986 227.838 90)
 			(effects
 				(font
@@ -25504,7 +25524,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "D18")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -25520,7 +25540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0aa0168-4b50-4431-80d4-fdbaece021a6")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 305.435 157.48 0)
 			(effects
 				(font
@@ -25575,7 +25595,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "J7")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -25592,7 +25612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e11b9ecf-0825-4141-99b4-fd12c8e5f0f7")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR024"
 			(at 200.66 190.5 0)
 			(effects
 				(font
@@ -25642,7 +25662,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR034")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -25659,7 +25679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e142941e-3e77-436a-864f-2e9ffb8038f2")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR011"
 			(at 88.9 147.32 0)
 			(effects
 				(font
@@ -25709,7 +25729,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR015")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -25724,7 +25744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e246d0d5-a93c-4318-85de-65426dab1859")
-		(property "Reference" "C7"
+		(property "Reference" "C2"
 			(at 84.074 147.574 0)
 			(effects
 				(font
@@ -25778,7 +25798,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "C7")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -25793,7 +25813,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2cc321c-8255-46b5-85b0-d3330cef6426")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 63.5 154.94 90)
 			(effects
 				(font
@@ -25845,7 +25865,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -25862,7 +25882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec86646d-a57a-42d5-897b-8aa48f488d53")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR040"
 			(at 318.77 33.02 0)
 			(effects
 				(font
@@ -25912,7 +25932,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR018")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -25927,7 +25947,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f22c1166-f664-4971-a080-609fc5e59543")
-		(property "Reference" "R9"
+		(property "Reference" "R2"
 			(at 59.69 81.28 90)
 			(effects
 				(font
@@ -25979,7 +25999,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "R9")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -25996,7 +26016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f31b01c3-7915-4fe6-bbbb-62d6af6a558a")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG01"
 			(at 323.85 111.125 0)
 			(effects
 				(font
@@ -26046,7 +26066,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#FLG06")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -26061,7 +26081,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4afb498-42f5-440d-b82b-c89ed8937f6f")
-		(property "Reference" "R13"
+		(property "Reference" "R19"
 			(at 318.77 33.02 90)
 			(effects
 				(font
@@ -26113,7 +26133,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "R13")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -26128,7 +26148,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5d083f5-bb01-4e85-b76d-d1c9483e61c4")
-		(property "Reference" "R17"
+		(property "Reference" "R9"
 			(at 138.43 207.01 90)
 			(effects
 				(font
@@ -26180,7 +26200,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "R17")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -26197,7 +26217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7988a46-fb98-4fb7-bad5-4b5449cce586")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR014"
 			(at 143.51 245.11 0)
 			(effects
 				(font
@@ -26247,7 +26267,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR030")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -26264,7 +26284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbdab7f4-0c27-4bbf-9bdc-2d1c7600d843")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR010"
 			(at 74.93 217.17 0)
 			(effects
 				(font
@@ -26314,7 +26334,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "#PWR017")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -26329,7 +26349,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc8661da-bf24-41c8-935d-251955d92617")
-		(property "Reference" "C29"
+		(property "Reference" "C6"
 			(at 189.23 195.072 90)
 			(effects
 				(font
@@ -26383,7 +26403,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "C29")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -26398,7 +26418,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc9b2ba2-c81d-4bd7-aa99-980af6c14817")
-		(property "Reference" "C28"
+		(property "Reference" "C5"
 			(at 189.23 181.864 90)
 			(effects
 				(font
@@ -26452,7 +26472,7 @@
 		(instances
 			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "C28")
+					(reference "C5")
 					(unit 1)
 				)
 			)
