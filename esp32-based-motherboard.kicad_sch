@@ -19246,6 +19246,473 @@
 		)
 	)
 	(symbol
+		(lib_id "ESP32-P4_MODULE:ESP32-P4_MODULE")
+		(at 143.51 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ecb2a62-4bb6-4cc1-bcf2-cd5aec1017a6")
+		(property "Reference" "U4"
+			(at 143.51 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP32-P4_MODULE"
+			(at 143.51 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Footprint:ESP32-P4_MODULE"
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Waveshare Electronics"
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.3mm"
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" "ASHISH"
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ESP32-P4%20Module/Waveshare+Electronics/view-part/?ref=eda"
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "NA"
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32-P4%20Module/Waveshare+Electronics/view-part/?ref=snap"
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ESP32-P4 Module"
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Dual-core RISC-V high-performance module"
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Waveshare Electronics"
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6dc36274-850b-450f-910e-64ac6bd6e053")
+		)
+		(pin "13"
+			(uuid "5fc4cab9-a7e8-43b8-82f5-82496629c951")
+		)
+		(pin "7"
+			(uuid "1a49f433-77a3-4a28-8f69-75baf52af2b3")
+		)
+		(pin "9"
+			(uuid "8b688486-c48c-47e8-b2d4-6cd6451479de")
+		)
+		(pin "8"
+			(uuid "93073f00-20eb-4844-b624-58f5fbc9d520")
+		)
+		(pin "87"
+			(uuid "04f8aa03-8d10-44c6-8f1e-517d53ea2775")
+		)
+		(pin "48"
+			(uuid "47adc364-5d74-4b14-9124-875fa7f992d1")
+		)
+		(pin "49"
+			(uuid "e5243f63-f1fe-465f-808a-27e890c6a0b6")
+		)
+		(pin "5"
+			(uuid "ac2c84a5-2ed7-453b-9530-a4ffb1942b0a")
+		)
+		(pin "14"
+			(uuid "077f8c9c-b08b-4f28-b8ee-1fe4c92f35e4")
+		)
+		(pin "12"
+			(uuid "1985e4cd-ce3f-4407-88eb-99c931f51499")
+		)
+		(pin "11"
+			(uuid "9d12f6fd-fcc2-4a49-b872-b13ca4a99bc0")
+		)
+		(pin "10"
+			(uuid "7b1b9afc-37dc-494c-ab60-7c5cdeba2b5f")
+		)
+		(pin "22"
+			(uuid "b65f645b-494c-4937-8353-ab7314803041")
+		)
+		(pin "25"
+			(uuid "98f3c225-4792-4560-bf09-ebffddc1656b")
+		)
+		(pin "26"
+			(uuid "302f2c1c-3b8a-4303-9826-c08ae1b59e04")
+		)
+		(pin "21"
+			(uuid "e6ac016f-b9be-46e6-9893-4d83779514d1")
+		)
+		(pin "20"
+			(uuid "bf3b48d2-3d45-4a98-b7bc-70e9251f6b53")
+		)
+		(pin "16"
+			(uuid "8051e687-47fa-4692-9d24-9663c811af64")
+		)
+		(pin "24"
+			(uuid "7970fff3-d8e6-47d9-9822-fdc4af29c263")
+		)
+		(pin "29"
+			(uuid "9784859f-42bb-4f9a-88b1-c6572056eb17")
+		)
+		(pin "53"
+			(uuid "0cbacaa2-45fd-4eb9-819f-91b32651e0cb")
+		)
+		(pin "54"
+			(uuid "c7ce49e9-042e-4704-8994-976e05ae9ed4")
+		)
+		(pin "88"
+			(uuid "3283e9b3-0974-4cf5-a92b-cf740184f51d")
+		)
+		(pin "17"
+			(uuid "78b3cbb7-08b5-4cca-987d-74f84a93024e")
+		)
+		(pin "84"
+			(uuid "9f69fa78-d0d8-4fe1-afce-2765526732f8")
+		)
+		(pin "28"
+			(uuid "785a2f28-a2b0-42b0-b2ef-d2e066522bc0")
+		)
+		(pin "30"
+			(uuid "e597d317-d1da-4ec8-883c-74bc108234d2")
+		)
+		(pin "18"
+			(uuid "3e04a6c5-7810-443c-8941-8332eeb3e690")
+		)
+		(pin "32"
+			(uuid "ec41fe7b-4715-4959-9145-911a689b6a68")
+		)
+		(pin "57"
+			(uuid "f74d91f7-fdb1-4076-a0aa-d6ca877bec15")
+		)
+		(pin "51"
+			(uuid "6d051a92-eb96-4e65-9978-0c2cf17536fd")
+		)
+		(pin "56"
+			(uuid "7a3dbbf5-edfe-4fef-8c83-a768cca5f22c")
+		)
+		(pin "27"
+			(uuid "64d4630f-fe64-4285-b1e6-10f764648af0")
+		)
+		(pin "31"
+			(uuid "25186465-2cac-4a99-ba65-199522679241")
+		)
+		(pin "50"
+			(uuid "86b76ac0-7b32-41ed-8adf-58db58cf93c2")
+		)
+		(pin "6"
+			(uuid "5b6a1878-0fae-4ed8-9b53-d1e338329680")
+		)
+		(pin "19"
+			(uuid "9df7cd17-2644-4c18-99f0-2bc0f367a1f2")
+		)
+		(pin "23"
+			(uuid "1568b735-de77-441b-8772-db8bbc649b3e")
+		)
+		(pin "85"
+			(uuid "de86a824-a6f7-402a-8c13-f78a8a2d4318")
+		)
+		(pin "86"
+			(uuid "53e3ecd4-c0c1-4ffe-ab73-232bbe5ae3b2")
+		)
+		(pin "55"
+			(uuid "4ea90519-38f2-44b9-a66c-950a4f52b994")
+		)
+		(pin "66"
+			(uuid "0836ee35-52fe-41ed-a010-0c67f081e0d4")
+		)
+		(pin "2"
+			(uuid "659b1d53-4263-4d3f-9720-332a0315ef7f")
+		)
+		(pin "60"
+			(uuid "0ae3243d-4ecd-4a88-8abd-18f66d597476")
+		)
+		(pin "67"
+			(uuid "543b5cb6-8bfd-4d99-9501-fc477d887207")
+		)
+		(pin "36"
+			(uuid "1baad38b-3940-4e5c-bccd-378ba3b42650")
+		)
+		(pin "42"
+			(uuid "6321e5d9-05f3-4843-a264-185c47d6b3a3")
+		)
+		(pin "62"
+			(uuid "38265664-2285-451d-9100-e9cd0cc48837")
+		)
+		(pin "72"
+			(uuid "7fc34723-d726-4ecb-8f6f-264f0dde0aee")
+		)
+		(pin "74"
+			(uuid "3f30e89b-9e1e-4999-891d-d2d658c2398f")
+		)
+		(pin "77"
+			(uuid "40959dda-5990-4504-a293-c8ccc8325233")
+		)
+		(pin "37"
+			(uuid "a42aba47-d22d-4e8f-a581-6532e12403ad")
+		)
+		(pin "63"
+			(uuid "26d766f4-0730-4e7c-81f2-bc25baf4c647")
+		)
+		(pin "76"
+			(uuid "4e3c9de6-030f-4252-bd1c-1ae0b7576b66")
+		)
+		(pin "82"
+			(uuid "fdbffdbf-eb41-4da8-adc0-77f765cea09b")
+		)
+		(pin "38"
+			(uuid "74a10261-3a72-4f4a-9323-6d9dc146a9c7")
+		)
+		(pin "43"
+			(uuid "7f4daeca-aa16-4a13-a7b1-8b4773bde626")
+		)
+		(pin "58"
+			(uuid "a49c2eb1-41ec-450b-b105-183a7c4e4fc2")
+		)
+		(pin "64"
+			(uuid "bb0c898d-be06-42b5-9446-a210b866ad74")
+		)
+		(pin "46"
+			(uuid "949cff69-c9a9-45ef-b83f-1959985ba300")
+		)
+		(pin "39"
+			(uuid "85110b31-f0b3-46dc-84b3-8929f021560f")
+		)
+		(pin "59"
+			(uuid "66ca869a-2345-414d-8be9-012fa3edd263")
+		)
+		(pin "35"
+			(uuid "2805a868-2997-4db6-9f5e-8979b6f8bb5d")
+		)
+		(pin "61"
+			(uuid "b0d3ef16-eff1-46b1-9231-b1a512a0d68c")
+		)
+		(pin "34"
+			(uuid "3ade3f84-2cec-4117-8177-480881e27cce")
+		)
+		(pin "44"
+			(uuid "8e39cc17-7a99-4540-8f2c-083f70e44f6f")
+		)
+		(pin "41"
+			(uuid "e81e0689-a485-41fb-aee8-ffd6abbec594")
+		)
+		(pin "45"
+			(uuid "8e43d380-20ff-4c72-980c-9f27309abf25")
+		)
+		(pin "65"
+			(uuid "3dccf079-8a77-460f-ba45-41ec90cc482e")
+		)
+		(pin "68"
+			(uuid "89289e82-5d54-43b6-8bfb-adbc525bc508")
+		)
+		(pin "69"
+			(uuid "83254c52-4527-4613-9090-1ddc893e72b4")
+		)
+		(pin "70"
+			(uuid "7edc14b4-a7de-4922-af5b-eba454a7d03d")
+		)
+		(pin "71"
+			(uuid "7e88cebf-c3c0-4879-abea-d63516adb6fd")
+		)
+		(pin "73"
+			(uuid "e4f72224-0662-467f-8fe5-77156417c36b")
+		)
+		(pin "75"
+			(uuid "f90eb072-1483-4e4d-829c-9b2d7dd4f35b")
+		)
+		(pin "78"
+			(uuid "0cc3880c-39cf-406f-b9b2-a31e5713feed")
+		)
+		(pin "79"
+			(uuid "f67338a4-59bb-49ca-82bd-db8b5450574f")
+		)
+		(pin "80"
+			(uuid "69fd1aa8-a8ee-400f-ab4a-8163e8ec41c9")
+		)
+		(pin "81"
+			(uuid "0c6fdd4a-c284-47ef-a894-f4ebf52385a8")
+		)
+		(pin "47"
+			(uuid "10290714-b9bf-476b-ab29-4ab8b7d4e5fa")
+		)
+		(pin "1"
+			(uuid "03c0283d-5315-4d91-bcee-a88a40b0db71")
+		)
+		(pin "33"
+			(uuid "e605dd88-9cc6-4f87-8e08-c3cf74bdcd01")
+		)
+		(pin "83"
+			(uuid "a2b30763-1137-4077-8c6a-9e597cd3472b")
+		)
+		(pin "3"
+			(uuid "f70b0230-24c7-4f3a-8caa-2cf182c1a1af")
+		)
+		(pin "52"
+			(uuid "cbe3a3cb-beef-48e2-b587-84659daeca82")
+		)
+		(pin "15"
+			(uuid "98d94e90-c30c-4cbe-a30a-fa2baec2e671")
+		)
+		(pin "40"
+			(uuid "338f6166-726a-4832-8d18-d80db6431932")
+		)
+		(instances
+			(project ""
+				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "+3.3V_3")
 		(lib_id "power:+3.3V")
 		(at 283.21 24.13 0)
@@ -23403,473 +23870,6 @@
 			(project ""
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
 					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ESP32-P4_MODULE:ESP32-P4_MODULE")
-		(at 143.51 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2d81052-5d7d-4214-865e-906294120cc6")
-		(property "Reference" "U4"
-			(at 143.51 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ESP32-P4_MODULE"
-			(at 143.51 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ESP32-P4:XCVR_ESP32-P4_MODULE"
-			(at 143.51 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Waveshare Electronics"
-			(at 143.51 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "3.3mm"
-			(at 143.51 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" "ASHISH"
-			(at 143.51 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 143.51 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 143.51 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ESP32-P4%20Module/Waveshare+Electronics/view-part/?ref=eda"
-			(at 143.51 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 143.51 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "NA"
-			(at 143.51 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" ""
-			(at 143.51 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32-P4%20Module/Waveshare+Electronics/view-part/?ref=snap"
-			(at 143.51 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "ESP32-P4 Module"
-			(at 143.51 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Dual-core RISC-V high-performance module"
-			(at 143.51 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 143.51 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Waveshare Electronics"
-			(at 143.51 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "18"
-			(uuid "0eb79825-bec6-46e3-8382-a939f21320f7")
-		)
-		(pin "88"
-			(uuid "e130c271-56e4-431c-8969-563cda3f91dc")
-		)
-		(pin "14"
-			(uuid "12b3e6cc-f2d1-44ed-a3ec-b1577cd31e7b")
-		)
-		(pin "25"
-			(uuid "94f1aef8-8edc-452b-8feb-b6c8fe06f77a")
-		)
-		(pin "28"
-			(uuid "a9e34f94-e706-410f-a20d-48c46f1f90be")
-		)
-		(pin "5"
-			(uuid "68f4b220-b859-43fd-ba7f-d3898a0550e6")
-		)
-		(pin "31"
-			(uuid "e4535686-4b85-42b5-bcb7-9390990ca8af")
-		)
-		(pin "4"
-			(uuid "1d07b236-78c0-42a6-89d2-0d13c4d9e7ba")
-		)
-		(pin "87"
-			(uuid "b1e5a231-2844-41e6-ab08-a311775a0525")
-		)
-		(pin "48"
-			(uuid "b073c128-6854-41f3-a925-245a2bf01df9")
-		)
-		(pin "8"
-			(uuid "3ac0138e-528a-4ebe-bb1a-d6b705327e59")
-		)
-		(pin "16"
-			(uuid "8f0ce019-603f-449b-bac1-cc8b15749f1c")
-		)
-		(pin "7"
-			(uuid "f04fc3dc-9a87-4cb4-90f1-7a6d09554e25")
-		)
-		(pin "17"
-			(uuid "16e54423-6ca3-4c03-880e-d243d95a4c6e")
-		)
-		(pin "19"
-			(uuid "df7c0f1f-e341-4ab4-b874-1fc36581e4c4")
-		)
-		(pin "23"
-			(uuid "32d674ff-25df-430a-a66c-5a3fc690e81b")
-		)
-		(pin "26"
-			(uuid "5094355f-e3fb-4398-9cd3-7ff82b6d3c3b")
-		)
-		(pin "11"
-			(uuid "01a66ada-0325-4545-ae60-edbd8898e354")
-		)
-		(pin "6"
-			(uuid "fe8a83e2-735f-49aa-a226-bddf4a295aeb")
-		)
-		(pin "24"
-			(uuid "090a9a60-6d8c-42c4-a75b-f397445a35be")
-		)
-		(pin "49"
-			(uuid "b600f620-dd54-4e54-84ca-3843da3cb2e8")
-		)
-		(pin "13"
-			(uuid "a307a1bd-d4f4-4f7a-801c-4e7d2d3a6e5a")
-		)
-		(pin "12"
-			(uuid "943634cc-f73a-4ccd-ad8e-8eb68f563a6b")
-		)
-		(pin "10"
-			(uuid "1cd0298a-bcd1-42ad-bffa-098c0760864b")
-		)
-		(pin "9"
-			(uuid "d9bdbf9d-d478-485c-ba77-0dbc6ac6d924")
-		)
-		(pin "20"
-			(uuid "46ab665c-c5d4-4536-a7b2-b7a53a86b639")
-		)
-		(pin "21"
-			(uuid "3de810ba-7dd8-4102-a48f-950306336db7")
-		)
-		(pin "22"
-			(uuid "519bfd85-dfe4-401b-a68a-9da0b9ea7f71")
-		)
-		(pin "27"
-			(uuid "40b661cc-d55c-41f2-9468-6318974838bc")
-		)
-		(pin "29"
-			(uuid "4e7228be-7a5c-4ebc-84e1-6d80033fe932")
-		)
-		(pin "30"
-			(uuid "ee0e3cbe-c721-4fec-b0b5-b641540ff0c5")
-		)
-		(pin "50"
-			(uuid "cd5e6191-00d6-4e5f-b7db-8d272f79e30a")
-		)
-		(pin "57"
-			(uuid "572f5fab-d4e5-430d-8ae8-31af46549da6")
-		)
-		(pin "86"
-			(uuid "6563bb26-25c7-4da0-9230-a6c75aa2fe37")
-		)
-		(pin "39"
-			(uuid "ee367b32-d09c-4108-ac8b-2451012b474e")
-		)
-		(pin "66"
-			(uuid "31cfd130-5ce6-4129-9f94-cee8cafcd57b")
-		)
-		(pin "2"
-			(uuid "43daee8d-f759-4ce1-b0c6-fae878443df3")
-		)
-		(pin "46"
-			(uuid "94e25950-c294-41c9-ad54-d79c4953e72f")
-		)
-		(pin "63"
-			(uuid "46023342-e026-49b8-a192-a23dfc05516d")
-		)
-		(pin "37"
-			(uuid "a0045562-ef76-44e8-98da-80de2d80e4c0")
-		)
-		(pin "85"
-			(uuid "c0dd3361-dffb-4be1-adbf-2ada0677c6c6")
-		)
-		(pin "34"
-			(uuid "7e39d04d-c4f4-474b-9c5d-3cfa0a468728")
-		)
-		(pin "59"
-			(uuid "071022a6-4f88-4d06-9935-ca36c4d5b49c")
-		)
-		(pin "53"
-			(uuid "6bcc4e1d-a39d-4564-a1bd-f420470c8a46")
-		)
-		(pin "42"
-			(uuid "3167e203-9a29-4184-baca-09d879905c8f")
-		)
-		(pin "58"
-			(uuid "32916885-8c86-4e9f-89c6-666f9e7e8662")
-		)
-		(pin "60"
-			(uuid "83cdf815-3f35-4c55-94c8-ef40aa6c9eb0")
-		)
-		(pin "61"
-			(uuid "d2a7f3d7-78d5-4d46-b540-4b56ed8506da")
-		)
-		(pin "62"
-			(uuid "a84cd777-7c38-4b14-a55e-52b006a8e4af")
-		)
-		(pin "35"
-			(uuid "4313ba60-97df-4da4-8c3f-bc3e0ec5ecae")
-		)
-		(pin "44"
-			(uuid "14c0b638-4591-456d-9439-9116295cf6e9")
-		)
-		(pin "56"
-			(uuid "52103537-0d47-400a-9b90-e0dc713b890a")
-		)
-		(pin "38"
-			(uuid "38a63b6b-bda6-4b16-bce8-f7cc8e258ed8")
-		)
-		(pin "54"
-			(uuid "0d74ff08-d164-4a06-a585-ffc6e2aaf6e3")
-		)
-		(pin "55"
-			(uuid "fe36f46f-a099-4831-8008-2b4d111d3a97")
-		)
-		(pin "32"
-			(uuid "f7e36615-5c82-4f3f-93a4-10314f917a2b")
-		)
-		(pin "51"
-			(uuid "ecd4fed0-799e-4705-8769-49c89d3804a9")
-		)
-		(pin "84"
-			(uuid "c9d23b39-6946-4377-8af7-692fed9845ef")
-		)
-		(pin "36"
-			(uuid "066c485f-0044-4660-b242-e435f20c9bee")
-		)
-		(pin "43"
-			(uuid "a958ec2c-9fa9-4cc5-b6d9-8660f102b857")
-		)
-		(pin "41"
-			(uuid "a3d35f52-8475-4e46-a589-52d5c2394a04")
-		)
-		(pin "45"
-			(uuid "5ecaab0d-e03c-4f0a-9332-bf95410d62bc")
-		)
-		(pin "64"
-			(uuid "af79c37b-7d0b-4199-9ec8-6742f8c8a405")
-		)
-		(pin "65"
-			(uuid "1a653754-1dd3-4dee-be30-be1625f53912")
-		)
-		(pin "3"
-			(uuid "3c7373c7-4415-4582-9c2e-405b9b0ed5f7")
-		)
-		(pin "33"
-			(uuid "1fa67158-f7cc-4577-8414-9d48bcc4fa7d")
-		)
-		(pin "82"
-			(uuid "28a2041e-764c-4ca9-a037-6a7f22cdf6a6")
-		)
-		(pin "1"
-			(uuid "69e55d15-033a-4b31-a118-721c2905b2e9")
-		)
-		(pin "81"
-			(uuid "83910a6c-9b68-431e-85b3-625eeabc382d")
-		)
-		(pin "15"
-			(uuid "0132d22a-a039-4212-ba88-47a8abcdf984")
-		)
-		(pin "75"
-			(uuid "4009dd94-1a50-45c7-a49c-3a79191cebbe")
-		)
-		(pin "52"
-			(uuid "b8aaf1a1-ba89-4de2-a8de-c841509c2281")
-		)
-		(pin "40"
-			(uuid "281860ac-c694-4c87-b963-d93bf938d3d5")
-		)
-		(pin "73"
-			(uuid "8c64b31e-3ce8-4d8e-9c88-0f10fa3fff79")
-		)
-		(pin "47"
-			(uuid "c5419e9e-23de-4d17-8e35-4dc743abea35")
-		)
-		(pin "70"
-			(uuid "18e126ae-a1ec-490b-90f9-247e8da28aaa")
-		)
-		(pin "68"
-			(uuid "131b6d41-202f-474d-b21d-b76f2aafc6cd")
-		)
-		(pin "69"
-			(uuid "db4b47f3-1506-4d39-a43a-224b5a11c564")
-		)
-		(pin "77"
-			(uuid "02a90e35-1a74-4d5b-8faa-5f490f7033a4")
-		)
-		(pin "72"
-			(uuid "5a57e0c9-5c04-4860-b540-96ff835ccaf2")
-		)
-		(pin "78"
-			(uuid "fa555224-dc1d-460e-b6cb-838f3b2ad14b")
-		)
-		(pin "74"
-			(uuid "43e315e3-b608-4f44-932f-525d4e58e2b5")
-		)
-		(pin "83"
-			(uuid "efcfc76e-d364-432e-8ab9-b94662b438e9")
-		)
-		(pin "71"
-			(uuid "e0b0d6e3-dddb-49af-8659-1373f205125a")
-		)
-		(pin "80"
-			(uuid "cfee2ad6-289c-494f-a60e-272f24fc3461")
-		)
-		(pin "76"
-			(uuid "f1d28a57-2487-4fe6-b806-0a8a3385bb6e")
-		)
-		(pin "79"
-			(uuid "bc6026f7-b603-47d1-bca1-124548ebbc72")
-		)
-		(pin "67"
-			(uuid "573eed95-5b26-4290-a47c-daa7ffc58f22")
-		)
-		(instances
-			(project "esp32-based-motherboard"
-				(path "/eefff33b-727a-4f43-882a-17641c879d4f"
-					(reference "U4")
 					(unit 1)
 				)
 			)
