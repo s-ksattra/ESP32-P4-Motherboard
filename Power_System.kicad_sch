@@ -2920,6 +2920,12 @@
 		(uuid "7d654201-6564-48fc-8297-132334a9d417")
 	)
 	(junction
+		(at 34.29 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80c4901b-54a6-4d62-a0d6-12f45c9e7756")
+	)
+	(junction
 		(at 193.04 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2948,12 +2954,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3b6a094-9dc8-42f4-8371-7ee39d6b9dd4")
-	)
-	(junction
-		(at 34.29 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b87bdd97-b4ab-4d57-8a08-f9386246c2c3")
 	)
 	(junction
 		(at 97.79 63.5)
@@ -3061,16 +3061,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 43.18) (xy 40.64 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "081226ee-da0d-4d69-9748-0aa87fa6c004")
-	)
-	(wire
-		(pts
 			(xy 85.09 49.53) (xy 83.82 49.53)
 		)
 		(stroke
@@ -3168,6 +3158,16 @@
 			(type default)
 		)
 		(uuid "25ae1406-22b0-4d0d-86dc-05c21ed6390d")
+	)
+	(wire
+		(pts
+			(xy 33.02 43.18) (xy 40.64 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b3229c-f379-4fd9-acb8-15e7636a5198")
 	)
 	(wire
 		(pts
@@ -3521,6 +3521,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 45.72) (xy 34.29 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89c6e759-d9bf-4fe2-979f-8bb38ac372eb")
+	)
+	(wire
+		(pts
 			(xy 77.47 58.42) (xy 77.47 63.5)
 		)
 		(stroke
@@ -3528,6 +3538,16 @@
 			(type default)
 		)
 		(uuid "8a674b8e-7433-42c0-a032-dc56aa0f18aa")
+	)
+	(wire
+		(pts
+			(xy 130.81 54.61) (xy 130.81 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b4b35b6-9dc3-45c2-87b2-b9ee31e4117b")
 	)
 	(wire
 		(pts
@@ -3558,16 +3578,6 @@
 			(type default)
 		)
 		(uuid "91f160d5-418e-479d-85e7-aa33d48d729c")
-	)
-	(wire
-		(pts
-			(xy 130.81 54.61) (xy 130.81 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cc442db-66e9-4590-8abd-8e9ce32cfbdf")
 	)
 	(wire
 		(pts
@@ -3945,211 +3955,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cf6377bd-9b9e-4098-9932-8de2770f79d8")
+			(uuid "72a60ee9-b841-4c20-9744-d07b17623d2c")
 		)
 		(instances
 			(project ""
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f/a65b4c4a-312d-4005-90c6-737da80e29b1"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "XT30PW-M:XT30PW-M")
-		(at 29.21 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e4363ee-97c5-495d-86ae-c9591fc7a1cd")
-		(property "Reference" "J1"
-			(at 25.4 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT30PW-M"
-			(at 25.4 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom_Footprint:AMASS_XT30PW-M"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "AMASS"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "5 mm"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=eda"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.2"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=snap"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "XT30PW-M"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; Colour: yellow"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Amass"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "XT30PW-M"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "N"
-			(uuid "37b15e7a-2cb5-4ca7-b31a-05c4c6a3b086")
-		)
-		(pin "P"
-			(uuid "f478bf4d-1084-41fb-8975-f1d5b7c33381")
-		)
-		(instances
-			(project ""
-				(path "/eefff33b-727a-4f43-882a-17641c879d4f/a65b4c4a-312d-4005-90c6-737da80e29b1"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4210,10 +4021,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "dcef079a-54c4-48d5-aa11-17a0e1c22b75")
+			(uuid "4ae4081b-fc53-4c6b-b798-3c20e44ee146")
 		)
 		(pin "2"
-			(uuid "836d72fb-fc91-4b3f-8cb3-e3838eaf8248")
+			(uuid "066a7f4e-853a-4fd3-969b-6f66d79e6436")
 		)
 		(instances
 			(project "esp32-based-motherboard"
@@ -4279,10 +4090,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ad793760-625b-41d2-9a79-ff56a80b14c1")
+			(uuid "f2944e4d-b029-4d07-b14f-1c6b9923707d")
 		)
 		(pin "2"
-			(uuid "ef45709e-e19e-40c5-8449-6de1a6c3241d")
+			(uuid "57fd24bb-8086-4d3c-bfe5-f9c52d042339")
 		)
 		(instances
 			(project "esp32-based-motherboard"
@@ -4349,7 +4160,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e188817-6942-4b87-9a9d-4dd706ffb38e")
+			(uuid "54f72170-6680-417d-92fe-b2d394331ffd")
 		)
 		(instances
 			(project ""
@@ -4417,27 +4228,19 @@
 			)
 		)
 		(pin "4"
-			(uuid "71c1b5ac-4a21-433d-809d-32844336b36b")
+			(uuid "4841f6ea-1483-45f4-87e5-4699fd162c19")
 		)
 		(pin "3"
-			(uuid "9bded402-ea4e-4bd0-955e-a99de7ba71a0")
+			(uuid "fec975a4-5378-41b7-8dfd-429deed8d5df")
 		)
 		(pin "1"
-			(uuid "dc206fe4-03a3-40fc-a28d-60fab2e5ce96")
+			(uuid "a2cdb395-16c7-4c7b-a5b4-bb22cb16a931")
 		)
 		(pin "2"
-			(uuid "9af73fed-a5bf-4027-8a7f-fbcfad9d0f14")
+			(uuid "11ada24f-28c3-4bea-bfc5-854f84eb262b")
 		)
 		(pin "5"
-			(uuid "ac92efd0-3e88-4771-b23d-4b6be690749f")
-		)
-		(instances
-			(project ""
-				(path "/eefff33b-727a-4f43-882a-17641c879d4f/a65b4c4a-312d-4005-90c6-737da80e29b1"
-					(reference "U1")
-					(unit 1)
-				)
-			)
+			(uuid "0ed3b622-ee64-4624-bbbd-c7188a70db0e")
 		)
 	)
 	(symbol
@@ -4494,18 +4297,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "11fe915f-2103-4a2f-bc8d-69d98fd8e36f")
+			(uuid "632d0a86-1af0-43e5-86cb-ad224ed294d1")
 		)
 		(pin "1"
-			(uuid "2f3a7d37-a4e4-4562-8209-cbcbfdf0d0b5")
-		)
-		(instances
-			(project ""
-				(path "/eefff33b-727a-4f43-882a-17641c879d4f/a65b4c4a-312d-4005-90c6-737da80e29b1"
-					(reference "F1")
-					(unit 1)
-				)
-			)
+			(uuid "c7dd86c1-43c5-4653-ba9c-3112de07d036")
 		)
 	)
 	(symbol
@@ -4564,7 +4359,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9b568579-85ca-4d30-b357-c1a72fc86171")
+			(uuid "c844881d-0f6b-477f-a8bd-d10cbe4f2d6d")
 		)
 		(instances
 			(project "esp32-based-motherboard"
@@ -4648,18 +4443,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "29afff10-8767-440f-813f-a3cfde03c930")
+			(uuid "d55a5be3-f998-4652-9c33-7f1d617cdfc3")
 		)
 		(pin "2"
-			(uuid "629eb222-4fb2-4108-b1f2-4e3e4059e1b2")
-		)
-		(instances
-			(project ""
-				(path "/eefff33b-727a-4f43-882a-17641c879d4f/a65b4c4a-312d-4005-90c6-737da80e29b1"
-					(reference "D1")
-					(unit 1)
-				)
-			)
+			(uuid "2b8f0ffa-be65-44da-a4b0-0b5698bee53d")
 		)
 	)
 	(symbol
@@ -4718,10 +4505,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6aad42ef-1d70-4cda-a76a-9aa645045a37")
+			(uuid "8cf86f88-b7c4-4691-b879-e4a522a0ae39")
 		)
 		(pin "2"
-			(uuid "4a52ad6c-8540-491d-aced-91cfccfc9a6f")
+			(uuid "30823904-5250-428d-92eb-19462ac3335c")
 		)
 		(instances
 			(project "esp32-based-motherboard"
@@ -4788,7 +4575,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5ccdf978-6c6e-424d-9170-2a2ea15ca8d4")
+			(uuid "a48f9436-f114-43bc-aecf-e95abfe7a5f6")
 		)
 		(instances
 			(project ""
@@ -4854,10 +4641,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c1f63781-dad6-4c53-8f6e-4b99e13fdfa0")
+			(uuid "8751d196-1760-4a12-99f6-64543f69b95c")
 		)
 		(pin "2"
-			(uuid "e735969a-295a-471c-82eb-78ea6fef4595")
+			(uuid "bcf4513b-f835-4e92-b0e4-27c6b50c5982")
 		)
 		(instances
 			(project "esp32-based-motherboard"
@@ -4934,10 +4721,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3cf50dfa-2381-40e2-b86f-cfcbe8f1a0e2")
+			(uuid "cc054bc0-3296-46ce-82d2-36dd998f4586")
 		)
 		(pin "2"
-			(uuid "b2b5eb2e-5208-43f4-a9d5-9cbe5d4df820")
+			(uuid "f710f0fc-297b-4c46-af21-dd58dfb6aeea")
 		)
 		(instances
 			(project "esp32-based-motherboard"
@@ -5004,13 +4791,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "8490778a-0b30-4e60-a3fb-b4ac830bc5d7")
+			(uuid "b7ef5753-0d1e-4fd7-ae28-fcc03570db6b")
 		)
 		(pin "2"
-			(uuid "3816c450-e7e4-4dbe-ade3-9bbe165ce85b")
+			(uuid "c6f44da7-5239-441a-b589-d88aeb93265d")
 		)
 		(instances
-			(project ""
+			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f/a65b4c4a-312d-4005-90c6-737da80e29b1"
 					(reference "R1")
 					(unit 1)
@@ -5071,18 +4858,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "15c7e4be-19e7-4685-9566-ca4ba24f7e30")
+			(uuid "4de1daaa-4403-45dc-adc3-507d80953d1b")
 		)
 		(pin "2"
-			(uuid "02a8c709-b2c2-4b90-b93c-e4e11a30e088")
-		)
-		(instances
-			(project ""
-				(path "/eefff33b-727a-4f43-882a-17641c879d4f/a65b4c4a-312d-4005-90c6-737da80e29b1"
-					(reference "L2")
-					(unit 1)
-				)
-			)
+			(uuid "dd42979e-27a3-4420-9e4b-325242d71422")
 		)
 	)
 	(symbol
@@ -5139,21 +4918,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "72493f99-5125-4c26-89fd-bd66bfdb535a")
+			(uuid "327e9373-8fc5-4a18-bc58-5b3eca223d68")
 		)
 		(pin "2"
-			(uuid "5114da42-d148-4231-aebb-388e980a1620")
+			(uuid "b3aa9933-5ce8-40fa-9eca-ab2a74f2e462")
 		)
 		(pin "3"
-			(uuid "59907026-3a63-4f05-b93c-d78db05e37d3")
-		)
-		(instances
-			(project ""
-				(path "/eefff33b-727a-4f43-882a-17641c879d4f/a65b4c4a-312d-4005-90c6-737da80e29b1"
-					(reference "U3")
-					(unit 1)
-				)
-			)
+			(uuid "d95e222b-ff1e-4eae-b223-9ae3394d6e4b")
 		)
 	)
 	(symbol
@@ -5212,7 +4983,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc85b431-aa19-4da2-acf8-a465cb2abcc2")
+			(uuid "a53d50ce-fa1a-406f-8da4-a3d0be3deb57")
 		)
 		(instances
 			(project "esp32-based-motherboard"
@@ -5279,7 +5050,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b72fa442-d9b0-4c7a-a7bb-c3127f9c7f03")
+			(uuid "82ddb093-b567-41a7-9aff-2130c0d30f33")
 		)
 		(instances
 			(project "esp32-based-motherboard"
@@ -5346,7 +5117,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9bb68a69-2c2f-449c-8014-34cb48d1ee84")
+			(uuid "a706c4eb-a60e-4592-9cce-7a3e1be8a056")
 		)
 		(instances
 			(project "esp32-based-motherboard"
@@ -5413,10 +5184,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3df2e960-3765-4e44-938b-eafd59667a59")
+			(uuid "e583a41f-f993-4781-b4ac-ecd6506b5b43")
 		)
 		(pin "2"
-			(uuid "05f36fde-41d3-4744-a968-1f18ced7c806")
+			(uuid "b8610e17-f839-4345-bdb6-753061965e77")
 		)
 		(instances
 			(project "esp32-based-motherboard"
@@ -5482,10 +5253,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fba56e4c-07d9-4b74-982e-9b89d53c0043")
+			(uuid "c9318239-3e61-471b-9226-1d92e2236bd9")
 		)
 		(pin "2"
-			(uuid "ee716a4e-9160-4d18-a990-e56f76bf728b")
+			(uuid "afbb77bf-d21c-4384-baee-3ee1d558fd51")
 		)
 		(instances
 			(project "esp32-based-motherboard"
@@ -5562,10 +5333,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "280f6cf1-52dd-43d2-a9b3-61a78e30309a")
+			(uuid "226ef2f1-1741-4b63-a1e3-06e37888953f")
 		)
 		(pin "2"
-			(uuid "76b605b6-1e8a-4e1e-97c2-3c6cabd6b751")
+			(uuid "ba2bcf8a-feea-4d31-abaa-fdd458baa2a0")
 		)
 		(instances
 			(project "esp32-based-motherboard"
@@ -5631,10 +5402,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a2895d7-b281-4eb8-9140-ede8fe2dd114")
+			(uuid "97ac3bf2-2cf3-44a1-9997-3c75474b6564")
 		)
 		(pin "2"
-			(uuid "fb57b7da-b4aa-4677-8a1c-44401acfca91")
+			(uuid "655ee931-71b4-4c21-84b4-6c9008cdd508")
 		)
 		(instances
 			(project "esp32-based-motherboard"
@@ -5699,10 +5470,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "015e5f6f-9f47-4585-b653-7f0ade215571")
+			(uuid "a6c400a9-355b-4f66-aa46-dfa465b7d638")
 		)
 		(pin "2"
-			(uuid "e1bd30c7-3da1-4cf6-be40-490898a3fe06")
+			(uuid "c0cba9e6-4a68-42f1-9cfb-bc6e21e93b22")
 		)
 		(instances
 			(project "esp32-based-motherboard"
@@ -5768,10 +5539,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b9bfe356-4a43-4753-ae98-781384e2b0b5")
+			(uuid "0bba6aa1-46b2-4e30-a0a8-c1fec4fbd87f")
 		)
 		(pin "2"
-			(uuid "689f4528-7af4-450e-ad89-d2496c2461e0")
+			(uuid "11d1eccf-4024-465c-af41-ca97c3e95317")
 		)
 		(instances
 			(project "esp32-based-motherboard"
@@ -5838,7 +5609,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c9ae265d-28f9-4e4c-9276-002d9f6ce325")
+			(uuid "5112a2e2-fd05-43e8-bc8b-f8d3bdd7ba62")
 		)
 		(instances
 			(project "esp32-based-motherboard"
@@ -5906,24 +5677,215 @@
 			)
 		)
 		(pin "4"
-			(uuid "5ce9a8f1-d9b2-4de9-9cc7-427974835806")
+			(uuid "b5486481-270f-4b0d-b116-8f480133c285")
 		)
 		(pin "1"
-			(uuid "4546591e-f4c7-4097-96db-1046ccb6fad8")
+			(uuid "ac4c6c9a-30bb-4648-82ce-fd05751823f0")
 		)
 		(pin "3"
-			(uuid "ab09a248-eed8-4405-bf76-ec322fe5fb24")
+			(uuid "cfa2d9ae-a5a1-4fa4-a497-7aff1bff75fc")
 		)
 		(pin "5"
-			(uuid "adf2b955-6f1a-4cc7-b880-0d78c2d73843")
+			(uuid "60b5ff0c-e9ef-47f6-aa72-a868d5af9696")
 		)
 		(pin "2"
-			(uuid "fe18173e-9e1b-4953-a19d-a3d9227cc414")
+			(uuid "b22e6774-aad1-4b7b-8b00-cbcf88fbdd01")
+		)
+	)
+	(symbol
+		(lib_id "XT30PW-M:XT30PW-M")
+		(at 27.94 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c48b352c-773b-4dcc-9ec1-ce482a8a6757")
+		(property "Reference" "J1"
+			(at 24.13 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT30PW-M"
+			(at 24.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Footprint:AMASS_XT30PW-M"
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "AMASS"
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5 mm"
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=eda"
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.2"
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=snap"
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "XT30PW-M"
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; Colour: yellow"
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Amass"
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "XT30PW-M"
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "N"
+			(uuid "96729c77-1b45-4531-b433-5b00c326d572")
+		)
+		(pin "P"
+			(uuid "a5bdb120-0e38-4dd0-a7af-ac0f2ff871aa")
 		)
 		(instances
-			(project ""
+			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f/a65b4c4a-312d-4005-90c6-737da80e29b1"
-					(reference "U2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5985,7 +5947,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4fa28a8a-ee8b-45fd-b244-7fc4a9764a59")
+			(uuid "d9dc11eb-a4af-4e03-a4f4-276b540514e7")
 		)
 		(instances
 			(project "esp32-based-motherboard"
@@ -6052,7 +6014,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "19e69c71-fb6a-45a4-b474-9bf033c15ed7")
+			(uuid "60e8897a-7c45-48bc-8207-ced90d098a9e")
 		)
 		(instances
 			(project "esp32-based-motherboard"
@@ -6129,13 +6091,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "01c0308c-7618-40d2-b7b0-f5e9d4c67952")
+			(uuid "5b34105c-85b9-476f-9b3b-40962ce62282")
 		)
 		(pin "2"
-			(uuid "7983d60a-413e-4606-aaba-50220135341b")
+			(uuid "f8fa0c19-596e-433a-89bc-3aa30914e929")
 		)
 		(instances
-			(project ""
+			(project "esp32-based-motherboard"
 				(path "/eefff33b-727a-4f43-882a-17641c879d4f/a65b4c4a-312d-4005-90c6-737da80e29b1"
 					(reference "D3")
 					(unit 1)
@@ -6199,7 +6161,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1ae7fdd3-6291-40df-b6b6-e3a2bf776bb9")
+			(uuid "2cde41df-be66-4ec5-a5d7-9a24c7792cf4")
 		)
 		(instances
 			(project "esp32-based-motherboard"
@@ -6266,7 +6228,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f55e9a28-554a-4c1a-b34a-9037eb9f487d")
+			(uuid "ec7b312a-fdd0-40d4-ac42-1627eb624bd9")
 		)
 		(instances
 			(project ""
@@ -6332,10 +6294,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "22672e40-e8f7-4e9d-b77d-31f8d510fee6")
+			(uuid "c7634247-b829-4d01-be5a-4294b6fad61a")
 		)
 		(pin "2"
-			(uuid "b0e9d312-8c50-457b-bf16-efb1390e6ba5")
+			(uuid "f5c7e73e-1cd0-49e6-a44c-f06a3c25509b")
 		)
 		(instances
 			(project "esp32-based-motherboard"
@@ -6402,7 +6364,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a4dbe5c-751e-4f6c-919f-82c20d9fa911")
+			(uuid "fa796e1c-d0d2-4463-864f-dfaf445fddf3")
 		)
 		(instances
 			(project ""
