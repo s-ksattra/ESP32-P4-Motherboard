@@ -127,7 +127,7 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -190,7 +190,10 @@
         0.0,
         0.25,
         0.3,
-        2.0
+        0.5,
+        1.0,
+        2.0,
+        4.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -500,9 +503,21 @@
         "diff_pair_width": 0.2,
         "name": "DIFF_90",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.25,
+        "name": "ETH_100",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
         "via_diameter": 0.6,
         "via_drill": 0.3
       }
@@ -516,6 +531,10 @@
       {
         "netclass": "DIFF_90",
         "pattern": "USB*"
+      },
+      {
+        "netclass": "ETH_100",
+        "pattern": "ETH*"
       }
     ]
   },
